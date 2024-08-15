@@ -1,0 +1,237 @@
+﻿.GridMain
+{
+    border-style: solid;
+    border-width: 1px;
+    color: #403e50;
+    font-family: Calibri, Verdana, Arial, Tahoma;
+    width: 100%;
+    background-color: #DFDFDF;
+    /*QI*/
+    position:absolute; 
+    overflow-y:scroll;
+     /*QI*/
+}
+
+    .GridMain th
+    {
+        border-style: solid;
+        border-width: 1px;
+        background-color: #FFFFFF;
+        /*text-align: left;*/ /*QI*/
+        font-size: 16px; 
+        height: 50px; /*QI last was 18px*/
+        color: #666666;
+        font-family: Calibri, Verdana, Arial;
+        cursor: pointer;
+        font-weight: bold;
+        /*padding-left: 20px;*/ /*QI*/
+       vertical-align:middle; /*QI*/
+       align-items:center; /*QI*/
+       text-wrap:none; /*QI*/
+       text-align: center; /*QI*/
+       white-space:nowrap; /*QI*/
+       padding-left:10px; /*QI*/
+       padding-right:10px; /*QI*/
+       
+    }
+
+        .GridMain th a
+        {
+            color: #666666;
+            text-decoration: underline;
+            text-wrap:none;
+        }
+
+    .GridMain tr
+    {
+        /* background-color: White;     font-size: 12px;     height: 12PX;     text-align: left;*/
+        background-position: #E4E4E4 no-repeat;
+        background: #EBEBEB no-repeat;
+        color: #403e50;
+        border: 1px solid #999999;
+        vertical-align: middle;
+        font-size: 12px; 
+        height: 25px;
+    }
+
+    .GridMain .alt
+    {
+        /*font-size: 12px;     height: 12PX;     text-align: left;     background-color:#d0d0d1;*/
+        font-size: 9pt;
+        border: 1px solid #999999;
+        width: 100%;
+        vertical-align: middle;
+        background-color: #f9f9f9;
+    }
+
+    .GridMain tr:hover
+    {
+        background-color: #FFFFFF;
+        cursor: pointer;
+    }
+
+    .GridMain alt:hover
+    {
+        background-color: #d0d0d1;
+        cursor: pointer;
+    }
+
+    .GridMain td
+    {
+        padding-left: 3px;
+        font-size: 12px;  /*QI last was 14px*/
+        vertical-align:middle; /*QI*/
+       align-items:center; /*QI*/
+       text-align:center;
+
+
+    }
+
+.AlternatRowStyle
+{
+    background-color: #ececec;
+}
+
+    .AlternatRowStyle:hover
+    {
+        background-color: Black;
+        cursor: pointer;
+        color: Black;
+    }
+
+.GridMain .pgr
+{
+    text-align: right;
+    font-size: 10px;
+    height: 20px;
+    color: black;
+}
+
+    .GridMain .pgr table
+    {
+        margin: 3px 0;
+    }
+
+    .GridMain .pgr td
+    {
+        border-width: 0;
+        padding: 0 6px;
+        border: solid 1px #666;
+        font-weight: bold;
+        /*color: #fff;*//*QI*/
+        color:#0f0fd6;/*QI*/
+        line-height: 20px;
+    }
+
+    .GridMain .pgr a
+    {
+        color: #666;
+        text-decoration: none;
+    }
+
+
+
+/*-----------------------------------------------Test-----------------------------------------------*/
+/* Account Status Grid Style */
+.GridAcc
+{
+    color: Black;
+    font-family: Calibri, Verdana, Arial, Tahoma;
+    width: 100%;
+    font-size: 14px;
+}
+
+    .GridAcc th
+    {
+        background-color: #AD003F;
+        /*text-align: left;*/ /*QI*/
+        height: 18px;
+        color: White;
+        font-family: Calibri, Verdana, Arial;
+        cursor: pointer;
+    }
+
+    .GridAcc .alt
+    {
+        border: 1px #ececec solid;
+        font-family: Calibri, Verdana, Arial;
+        cursor: pointer;
+        vertical-align: middle;
+    }
+
+    .GridAcc tr
+    {
+        border: 1px #ececec solid;
+        font-family: Calibri, Verdana, Arial;
+        cursor: pointer;
+        vertical-align: middle;
+    }
+/*-----------------------------------------------Button-----------------------------------------------*/
+.button
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8pt;
+    font-align: left;
+    font-weight: bold;
+    text-align: left;
+    color: #403e50;
+    background-repeat: no-repeat;
+    background-color: #ddd;
+    border: 1px Silver solid;
+    padding: 2px;
+    padding-left: 25px;
+    display: inline;
+}
+
+.TDLeft
+{
+    text-align: left;
+    text-align: -moz-left;
+    text-align: -webkit-left;
+    width: 50%;
+}
+
+.TDRight
+{
+    text-align: right;
+    text-align: -moz-right;
+    text-align: -webkit-rigth;
+    width: 50%;
+}
+
+#progressBackgroundFilter
+{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    background-color: #000;
+    filter: alpha(opacity=40);
+    opacity: 0.5;
+    z-index: 1000;
+}
+
+#processMessage
+{
+    position: absolute;
+    top: 30%;
+    left: 43%;
+    padding: 10px;
+    width: 12%;
+    z-index: 1001;
+    background-color: #fff;
+}
+
+.hide
+{
+    visibility: hidden;
+    width: 1px;
+}
+.CellBold
+{
+    font-weight:bold;
+}
